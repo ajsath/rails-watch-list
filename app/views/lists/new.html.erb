@@ -1,0 +1,13 @@
+<div class="banner" style="background-image: url(https://www.futurezone.de/wp-content/uploads/sites/11/2022/09/darth-vader-star-wars.jpg?w=1200)">
+  <div class="container">
+  </div>
+</div>
+
+
+  <div class="new-list">
+    <h1>Prepare a new <strong>list</strong> !</h1>
+    <%= simple_form_for [@list] do |f| %>
+      <%= f.input :name %>
+      <%= f.submit "Submit", class: "btn btn-success" %>
+    <% end %>
+  </div>
